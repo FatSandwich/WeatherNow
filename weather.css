@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url('https://images.pexels.com/photos/1292843/pexels-photo-1292843.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+header input:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.current .temp {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.current .temp span {
+  font-weight: 800;
+}
+
+.current {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
