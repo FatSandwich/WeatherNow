@@ -1,3 +1,2 @@
 # WeatherNow
-Weather
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ace7152-04c6-47ae-831d-ee73cf03da6a/deploy-status)](https://app.netlify.com/sites/weathernownow/deploys)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FatSandwich/WeatherNow)
