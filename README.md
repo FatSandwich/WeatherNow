@@ -1,2 +1,3 @@
 # WeatherNow
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FatSandwich/WeatherNow)
+
+WeatherNow is a website that tells you the weather using an API from OpenWeatherMap.
